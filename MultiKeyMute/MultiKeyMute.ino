@@ -21,7 +21,7 @@ void setup()
   
   button.attachLongPressStart([]() {
     Serial.println("Long press");
-    DigiKeyboard.sendKeyStroke(KEY_W, MOD_CONTROL_LEFT); 
+    DigiKeyboard.sendKeyStroke(KEY_Q, MOD_ALT_LEFT); 
   });
 }
 
